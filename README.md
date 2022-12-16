@@ -8,12 +8,12 @@
 이것들을 보고 처음에는 내가 준 입력값이 이 코드에 무슨 영향을 줄 수 있을까 생각을 해봤고 문제에 있는 bof에 대해서 검색해봤다.<br>
 
 예시로 다른 코드를 볼 수 있었다.<br>
-#include<stdio.h>
-int main(){
-char buffer[200];
-strcpy(argv[0],buffer);
-printf("hello %s",buffer);
-}
+#include<stdio.h><br>
+int main(){<br>
+char buffer[200];<br>
+strcpy(argv[0],buffer);<br>
+printf("hello %s",buffer);<br>
+}<br>
 위에 있는 코드도 버퍼 오버플로우 취약성이 있는 코드다. 저장 공간을 넘어가는, 즉 200자 이상을 입력하면 버퍼 오버플로우가 발생하게 된다.<br>
 
 정확한 구조를 알기 위해서 리버싱을 이용해서 더 세밀한 솔루션을 찾아야한다고 생각했다.<br>
