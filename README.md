@@ -20,4 +20,3 @@ printf("hello %s",buffer);<br>
 [리버싱 과정](https://github.com/huboca/bof/tree/main/reversing)<br>
 
 
-위 자료들을 보면 
