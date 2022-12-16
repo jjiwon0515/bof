@@ -1,6 +1,7 @@
 #system(): 명령어를 수행하는 함수. 프로그램을 실행하는 함수. 
 #예제를 통해서 봐야겠다
 
+#command.c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -11,6 +12,6 @@ int main(){
 }
 
 
-#결과
+
 
 
